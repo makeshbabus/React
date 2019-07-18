@@ -1,0 +1,12 @@
+{
+	apps:[
+	{
+		name : "Admin",
+		script:"npx",
+		interpreter : "none",
+		args :  "concurrently \"node index.js\" \"npm run start --prefix client\""		  
+
+	}
+
+	]
+}

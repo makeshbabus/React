@@ -1,0 +1,859 @@
+::-webkit-scrollbar {
+    width: 0px;
+    height:5px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+overflow-scrolling:touch;
+-webkit-overflow-scrolling: touch;
+
+.MuiIconButton-root{
+padding:0px;
+}
+
+.Container{
+    height:98vh;
+}
+.paper{
+    height: 90vh;
+    background-color:#FFFFFF;
+    -webkit-overflow-scrolling: touch;
+}
+.papericon{
+    background-color:transparent;
+    box-shadow:none;
+    text-align:left;
+ }
+
+.closeicon{
+ 	background-color:#C3D5E0;
+ 	width:28px;
+ 	height:28px;
+ 	padding:0;
+}
+.closeicon:hover{
+ 	background-color:#C3D5E0;
+}
+.listItem{
+	background-color:#C3D5E0;
+	margin:0px;
+	height:40px;
+	padding-left: 12px;
+	padding-right:5px;
+	font-weight: bold;	
+}
+.GridContainer{
+	background-color:#CECECE;
+}
+.MuiListSubheader-root{
+	color:#3C5360;
+	font-size:17px;
+	font-weight:bold;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	text-align:center;
+}
+.MuiTypography-subheading{
+	font-weight: bold;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	color:#3C5360;
+}
+.ExpandItem{
+	overflow-y: auto;
+	height:60vh;
+	margin:2px 7px;
+}
+.ExpandMG{
+	position: relative;
+	overflow : auto;
+	height:65vh;
+	background-color:#C3D5E0;
+	margin: 8px;
+	padding-top:0px;
+	padding-right:0px;
+	padding-left:0px;
+	padding-bottom: 12px;
+	overflow-scrolling:touch;
+-webkit-overflow-scrolling: touch;
+}
+.BillPrint{
+	margin-left: 10px;
+	vertical-align:middle;
+	height:40px;
+	width:40px;
+	text-align:center;
+	cursor:pointer;
+}
+.AddNotes{
+	position:relative;
+	height:600px;
+	background-color:#FFFFFF;
+	margin:2px;
+}
+.MeasurementInput{
+	max-width :55%;
+	border: 1px solid #FFFFFF;
+	font-size: 10;
+	padding: 3px 8px;
+	height:20px;
+	background-color: #FFFFFF;
+	margin-right:20px;
+}
+ .secondarycontent{
+    text-align: right;
+    font-size: 12px;
+ }
+ .listItemCreate{
+ 	 padding:20px 20px;
+ 	 background-color:#C3D5E0;
+ }
+
+ .listTextCreate{
+ 	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+ 	width:140px;
+ 	font-size:17px;
+ 	font-weight:bold;
+ 	color: #3C5360;
+ }
+ .CloseiconCreate{
+ 	margin-left:5px;
+ 	margin-top:0;
+ 	height:15px;
+ 	width:15px;
+ 	text-align:center;
+ 	vertical-align:top;
+ 	cursor:pointer;
+ }
+ .listCreate{
+ 	margin-bottom:-12px;
+ }
+ .ListTextMname{
+  	font-size: 15px;
+ 	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+ 	width:120px;
+ 	font-weight:bold;
+ 	color: #3C5360;
+ }
+.OrderGo{
+	width:80px;
+	margin-left:10px;
+	border-radius:30px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-transform: none;
+	padding:5px 0px;
+	height:30px;
+}
+.OrderContainer{
+	background-color:#D8A995;
+}
+.OrderItem{
+		height:100vh;
+}
+
+.OrderImage{
+	width:50%;
+	height:40%;
+	padding-bottom:17%;
+}
+
+.OrderPaper{
+	width:280px;
+	text-align: right;
+	padding-right:2px;
+	border-radius:30px;
+	background-color: #C3D5E0;
+}
+.OrderText{
+	width:60%;
+	background-color: transparent;
+}
+
+.products{
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:bold;
+	color:#3C5360;
+}
+
+ .Expand{
+ 	padding-top: 14px;
+ 	overflow-y: auto;
+ 	max-height:50vh;
+ 	width:97%;
+ }
+ @media (min-width: 280px) and (max-width: 480px) {
+  
+	.LoginItem{
+	height:50vh;
+	}
+	.OrderAlign{
+	text-align:center;
+	margin-top: -50px;
+	}
+
+	.RegtextField{
+	border: 1px solid #FFFFFF;
+    	border-radius:7px;
+    	font-size: 13px;
+    	padding:4px 8px;
+    	height:24px;
+	width:65vw;
+    	margin-bottom:7px;
+    	background-color:#FFFFFF;
+	}
+	.RegDatepickerinput{
+	border: 1px solid #FBCFB9;
+	border-radius:7px;
+	font-size: 13px;
+	padding:4px 8px;
+	height:30px;
+	width:70vw;
+	margin-bottom:7px;
+	background-color:#FFFFFF;
+	text-transform: none;
+	justify-content: inherit;
+	}
+	.RegDatepickerinput:hover{
+	background-color:#FFFFFF;
+	}
+	.secondaryDialogdiv{
+	width:230px;
+	background-color:#0167A3;
+ 	opacity:0.9;
+	border-radius: 30px;
+	}
+  
+}
+ @media (min-width: 480px) {
+ 	.secondaryDialogdiv{
+	width:280px;
+	background-color:#0167A3;
+ 	opacity:0.9;
+	border-radius: 30px;
+	}
+	.LoginItem{
+	height:75vh;
+	}
+	.OrderAlign{
+	text-align:center;
+	margin-top: -10px;
+	}
+
+	.RegtextField{
+	 border: 1px solid #FFFFFF;
+    	 border-radius:7px;
+     	 font-size: 13px;
+   	 padding:4px 8px;
+    	 height:24px;
+    	 width:28.8vw;
+   	 margin-bottom:7px;
+   	 background-color:#FFFFFF;
+	}
+	 .RegDatepickerinput{
+	    border: 1px solid #FBCFB9;
+	    border-radius:7px;
+	    font-size: 13px;
+	    padding:4px 8px;
+	    height:30px;
+	    width:30.5vw;
+	    margin-bottom:7px;
+	    background-color:#FFFFFF;
+	    text-transform: none;
+	    justify-content: inherit;
+	 }
+	  .RegDatepickerinput:hover{
+	    background-color:#FFFFFF;
+	 }
+ }
+
+.title {
+    border-bottom:2px solid;
+    font-size: 14px;
+    color:#D8A995;
+ }
+.paperContainer{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.resend{
+	text-transform:none;
+	color:red;
+}
+.LoginTypo{
+	text-align:right;
+	padding-right:10px;
+}
+
+.card{
+	min-height: 240px;
+    min-width:280px;
+    height:auto;
+    position:absolute;
+    margin:auto;
+    border-radius:20px;
+    background-color:#dddddd;
+ }
+.CardContent{
+	vertical-align:middle;
+	background-color:#625046;
+	height:20px;
+}
+.Loginheader{
+	color:#D8A995;
+}
+.Buttonsubmit{
+	margin-top: 20px;
+	text-transform:none;
+	border-radius:20px;
+	width:170px;
+	background-color:#000000;
+}
+.Buttonsubmit:hover{
+	background-color:#8b7367;
+}
+.LoginTextfield{
+	margin-top: 30px;
+	width:300px;
+	text-align: center;
+	padding:20px;
+}
+.ButtonsubmitOTP{
+	text-transform:none;
+	border-radius:20px;
+	width:170px;
+	background-color:#8b7367;
+}
+.ButtonsubmitOTP:hover{
+	background-color:#8b7367;
+}
+.OtpCardContent{
+	background-color:transparent;
+	height:25px;
+}
+.CardAction{
+	justify-content:center;
+}
+
+.Registerclose{
+	background-color:#C3D5E0;
+	width:28px;
+	padding:0;
+	height:28px;
+	margin-bottom:10px;
+}
+.Registerclose:hover{
+	background-color:#C3D5E0;
+}
+.Dialogtitle{
+	margin-bottom:-14px;
+}
+.Headertext{
+	text-align:center;
+	font-size:19px;
+	color:#FFFFFF;
+	font-weight: bold;
+	padding-top:20px;
+	padding-bottom: 10px;
+}
+.RegisterContent{
+	padding-top: 15px;
+	text-align:center;
+}
+.dialogMainregister{
+	background-color:#0167A3;	
+	border-radius:15px;
+	margin-top:10px;
+}
+.Regchkbxtxt{
+	font-size: 10px;
+	color:#FFFFFF;
+}
+.RegFooter{
+	width:90%;
+	text-align:right;
+	padding-top:10px;
+	padding-bottom: 20px;
+}
+.RegContinue{
+	background-color:#FFFFFF;
+}
+.RegContinue:hover{
+	background-color:#FFFFFF;
+}
+.fabButton{	
+  position:relative;
+  margin-right:2%;
+  background-color:black;
+}
+.fabButton:hover{	
+  background-color:black;
+}
+.MainAdd{
+  color:#FBCFB9;	
+}
+.MainFooter{
+	height:6%;
+	position:absolute;
+	z-index:1000;
+	left:0;
+	bottom:0;
+	background-color:#0167A3;
+	width:100%;
+}
+.MainList{
+	height:20px;
+	width:20px;
+	text-align:center;
+}
+.MainListText{
+	font-size:12px;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+.MainShopname{
+	font-size:15px;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+	color:#FFFFFF;
+}
+.MainLogo{
+	width:75px;
+	height:75px;
+	margin-left: 20px;
+	color:#FFFFFF;
+}
+.MainsmLogo{
+	width:40px;
+	height:40px;
+	color:#FFFFFF;
+}
+.SearchInput{
+	max-width :25%;
+	min-width: 180px;
+	border: 1px solid #D8A995;
+	font-size: 10;
+	padding: 5px 8px 1px 5px;
+	height:20px;
+	background-color: #FFFFFF;
+	margin-right: 2%;
+	text-align: center;
+}
+.ProfileList{
+	font-size:12px;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+}
+.LaneHeader{
+	background-color:#B9E6FF;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+	width:110%;
+	padding: 8px;
+	margin-top: -10px;
+	margin-right: 0px;
+	margin-left: -10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.LaneTitle{
+	font-size: 12px;
+	color:#3C5360;
+	font-weight: bold;
+}
+
+.ReactGridGallery{
+	overflow-y:scroll;
+}
+.SearchGallery{
+	max-width :25%;
+	border: 1px solid #ced4da;
+	font-size: 10;
+	padding: 3px 8px;
+	height:20px;
+	background-color: black;
+	margin-right: 2%;
+}
+
+.GalleryItem{
+	background-color:#FACFB9;
+	margin:10px;
+	height:80vh;
+	width:99%;
+	overflow-y:scroll;
+}
+
+.Nextbutton{
+	background-color:#B8E6FF;
+	text-transform:none;
+	width:100%;
+	border-radius: 0px;
+	color:#3C5360;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+	font-size:14px;
+	margin-top:10px;
+}
+.Nextbutton:hover{	
+  background-color:#B8E6FF;
+}
+ .Printarea{
+ 	margin:10px;
+ 	max-height:65vh;
+ 	overflow-y: scroll;
+ 	overflow-x: hidden;
+ 	background-color: white;
+ 	padding:10px;
+ }
+   .customerRelname{
+   	padding-top: 0px;
+ 	text-align:center;
+ 	overflow-x: scroll;
+ }
+ .relName{
+ 	padding:5px;
+ 	border-bottom: 2px solid transparent;
+ 	border-radius: 0px;
+ 	font-size:15px;
+ 	font-weight:bold;
+ 	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+ 	text-transform: none;
+ 	color:#3C5360;
+ }
+  .relNameselect{
+  	padding:5px;
+ 	border-bottom: 2px solid black;
+ 	border-radius: 0px;
+ 	font-size:15px;
+ 	font-weight:bold;
+ 	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+ 	text-transform: none;
+ 	color:#3C5360;
+ }
+ .ErrorTextStyle{
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+	font-size: 10;
+	align-self:center;
+	text-align: center;
+	color:red;
+}
+.Datepickerinput{
+	background-color: #3C5360;
+	text-transform: none;
+	width:100px;
+	color:#C3D5E0;
+	padding:0px;
+	font-size:12px;
+	font-weight:bold;
+	border-radius: 0px;
+	height:30px;
+}
+.Datepickerinput:hover{
+	background-color: #3C5360;
+}
+.secondarycontentqty{
+	text-align: right;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    padding-right: 6px;
+}
+
+.createbutton{
+	background-color:#B8E6FF;
+	text-transform:none;
+	width:45%;
+	margin:0 5px;
+	border-radius: 0px;
+}
+.createbutton:hover{
+	background-color:#B8E6FF;
+}
+.CreatelistItem{
+	background-color:#FBCFB9;
+	margin:0px;
+	height:40px;
+	font-weight: bold;	
+}
+.middlebutton{
+	background-color:#C3D5E0;
+	height: 40px;
+	text-transform:none;
+	width:31%;
+	margin:0 2px;
+	border-radius: 0px;
+	font-size:13px;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+ 	color:#3C5360;
+ 	font-weight: bold;
+}
+.middlebutton:hover{
+	background-color:#C3D5E0;
+}
+.middlebuttontext{
+	height: 40px;
+	padding-top: 6px;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+ 	color:#3C5360;
+ 	font-weight: bold;
+}
+
+.MuiDrawer-docked{
+	background-color: #CECECE;
+}
+.MuiButton-root{
+	min-height:20px;
+}
+.sampleCloths{
+	float:right;
+	text-align: center;
+	font-weight: bold;
+	padding-left: 30px;
+}
+.sampleClothsbtn{
+	float:left;
+	text-transform: none;
+	text-align: center;
+	font-weight: bold;
+}
+.sampleClothsdiv{
+	display:flex;
+	width:100%;
+	text-align: center;
+}
+.customerRelnamegap{
+	width:100%;
+	height:8px;
+	background-color: #FFFFFF;
+}
+.BillPrintpay{
+	margin-right: 8px;
+	vertical-align:middle;
+	height:32px;
+	width:32px;
+	text-align:center;
+	cursor:pointer;
+}
+.listTextCreateadd{
+ 	text-transform:uppercase;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+ 	font-size:17px;
+ 	text-align: center;
+ }
+ .listItemCreateadd{
+ 	margin-top: 5px;
+  	 padding:10px 10px;
+ 	 background-color:#C3D5E0;	
+	 display:none;
+ }
+
+.buttonContainerdraw{
+	width:595px;
+	text-align:left;
+	background-color:#FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-top:1px solid black;
+}
+
+.middlebuttondrawclose{
+	background-color:#C3D5E0;
+	text-transform:none;
+	width:60px;
+	margin-left:2px;
+	margin-right: 10px;
+	border-radius: 2px;
+	font-size: 10px;
+	font-weight: bold;
+	padding:0px;
+	height:30px;
+	border:none;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+}
+.middlebuttondrawclose:hover{
+	background-color:#C3D5E0;
+}
+.middlebuttondraw{
+	background-color:#C3D5E0;
+	text-transform:none;
+	width:60px;
+	margin:0 2px;
+	border-radius: 2px;
+	font-size: 10px;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+	padding:0px;
+	height:30px;
+	border:none;
+}
+.middlebuttondraw:hover{
+	background-color:#C3D5E0;
+}
+.summaryClose{
+	height:12px;
+	width:15px;
+	font-weight: bold;
+	color:#3C5360;
+}
+.summarydueDate{
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#3C5360;
+}
+.summarydDetail{
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#3C5360;
+}
+.SecondarypopContent{
+	padding-top: 15px;
+	text-align:center;
+}
+.SecondarypopButton{
+	width:80%;
+	background-color: #3496D5;
+	color:#FFFFFF;
+	border-radius: 20px;
+	text-transform: none;
+	margin-bottom: 5px;
+}
+.SecondarypopButton:hover{
+	background-color: #3496D5;
+}
+.DialogtitleSecondary{
+	margin-bottom:-14px;
+}
+
+.billPrinttext{
+	font-size: 12px;
+	font-weight: bold;
+}
+.billPrinttexthead{
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: none;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+}
+.ProductsListitem{
+	height:30px;
+}
+
+.dividerMenu{
+	height:3px;
+	background-color: #CECECE;
+}
+.jHtXmx{
+border-bottom: none;
+background-color:transparent;
+}
+.footerContent{
+	color:#FFFFFF;
+	font-size: 10px;
+	text-transform: none;
+	font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+}
+.paperProduct{
+    height: 93vh;
+    background-color:#C3D5E0;
+}
+.closeiconcross{
+	color:#FFFFFF;
+}
+.listItemProduct{
+	background-color:#B8E6FF;
+	margin:0px;
+	height:40px;
+	padding-left: 12px;
+	padding-right:5px;
+	color:#3C5360;
+	font-weight: bold;
+}
+.drawingPaper{
+    height: 84vh;
+    background-color:transparent;
+}
+.screensCloseicon{
+ 	background-color:#3C5360;
+ 	width:28px;
+ 	height:28px;
+ 	padding:0;
+}
+.screensCloseicon:hover{
+ 	background-color:#3C5360;
+}
+.papericonTotal{
+    background-color:transparent;
+    box-shadow:none;
+    text-align:left;
+    width: 936px;
+    padding: 6px;
+    -webkit-overflow-scrolling: touch;
+ }
+.ExpandGallery{
+	overflow-y: auto;
+	max-height:65vh;
+	margin:5px;
+	background-color:#FFFFFF;
+	margin: 8px;
+	padding-bottom: 12px;
+}
+.papericontert{
+    background-color:transparent;
+    box-shadow:none;
+    text-align:left;
+ }
+
+ .closeiconReg{
+ 	background-color:#0167A3;
+ 	opacity:0.7;
+ 	width:28px;
+ 	height:28px;
+ 	padding:0;
+}
+.closeiconReg:hover{
+ 	background-color:#0167A3;
+ 	opacity:0.7;
+}
+.HeaderPayment{
+	text-align:center;
+	font-size:19px;
+	color:#FFFFFF;
+	font-weight: bold;
+	padding-top:20px;
+}
+.paperImage{
+    position:absolute;
+    width:100%;
+    height:80%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.searchClear{
+	cursor:pointer;
+	font-size: 17px;
+	color:#3C5360;
+}
+.searchClearhide{
+	display: none;
+}
+
+.cardProd{
+	min-height: 240px;
+    min-width:280px;
+    height:100vh;
+    margin:auto;
+    border-radius:20px;
+    background-color:#1d1814;
+    overflow-y: scroll;
+ }
